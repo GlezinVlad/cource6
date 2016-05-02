@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'mainapp',
     'movies',
     'seances',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
