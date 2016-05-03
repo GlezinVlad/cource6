@@ -6,6 +6,6 @@ from movies.models import Movie
 
 
 class Seance(models.Model):
-    film = models.ForeignKey(Movie, on_delete=models.CASCADE)
+    film = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name='seances')
     starts_at = models.DateTimeField()
     duration = models.IntegerField()
